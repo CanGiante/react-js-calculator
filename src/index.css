@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:focus, button:focus {
+  outline: 0 !important;
+  box-shadow: 0px 0px 1px 1px #97979781 inset;
+}
